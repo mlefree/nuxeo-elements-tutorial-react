@@ -2,9 +2,18 @@
 
 Our [Nuxeo Elements tutorial](https://doc.nuxeo.com/nxdoc/nuxeo-elements-tutorial/) for [React.js](https://reactjs.org/)
 
+![screenshot!](./screenshots/nuxeo-react.png)
+
 ## Project setup
 ```
 npm install
+```
+
+You should have a Nuxeo running on http://localhost:8080. 
+Please consider using [Nuxeo Docker Image](https://hub.docker.com/_/nuxeo/) :
+
+``` 
+$ docker run --name mynuxeo -p 8080:8080 -d nuxeo
 ```
 
 ### Compiles and hot-reloads for development

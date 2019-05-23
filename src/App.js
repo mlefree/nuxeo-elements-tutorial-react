@@ -72,7 +72,7 @@ class AppComponent extends React.Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                 </header>
 
-                <nuxeo-connection url="http://localhost:8110/nuxeo"></nuxeo-connection>
+                <nuxeo-connection url="http://localhost:8080/nuxeo"></nuxeo-connection>
 
                 <nuxeo-document-suggestion
                     placeholder="Select a document"
