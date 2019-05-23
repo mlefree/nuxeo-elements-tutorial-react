@@ -2,7 +2,7 @@
 
 Our [Nuxeo Elements tutorial](https://doc.nuxeo.com/nxdoc/nuxeo-elements-tutorial/) for [React.js](https://reactjs.org/)
 
-![screenshot!](./screenshots/nuxeo-react.png)
+<img src="https://github.com/mlefree/nuxeo-elements-tutorial-react/raw/master/screenshots/nuxeo-react.png" style="width:200px;">
 
 ## Project setup
 ```
