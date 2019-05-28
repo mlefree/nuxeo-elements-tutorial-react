@@ -9,12 +9,13 @@ Our [Nuxeo Elements tutorial](https://doc.nuxeo.com/nxdoc/nuxeo-elements-tutoria
 npm install
 ```
 
-You should have a Nuxeo running on http://localhost:8080. 
+You should have a Nuxeo running on http://localhost:8080 with a CORS configuration.
 Please consider using [Nuxeo Docker Image](https://hub.docker.com/_/nuxeo/) :
 
 ``` 
 $ docker run --name mynuxeo -p 8080:8080 -d nuxeo
 ```
+
 
 ### Compiles and hot-reloads for development
 ```
@@ -47,6 +48,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+### Work in progress
+
+- Test issues
+- React package.json proxy not working in a Nuxeo context
 
 ## License
 
