@@ -2,7 +2,7 @@
 
 Our [Nuxeo Elements tutorial](https://doc.nuxeo.com/nxdoc/nuxeo-elements-tutorial/) for [React.js](https://reactjs.org/)
 
-<img src="https://github.com/mlefree/nuxeo-elements-tutorial-react/raw/master/screenshots/nuxeo-react.png" style="width:200px;">
+<img src="https://github.com/mlefree/nuxeo-elements-tutorial-react/raw/master/screenshots/nuxeo-react.png" style="width:100px;">
 
 ## Project setup
 ```
@@ -31,6 +31,7 @@ npm run build
 npm test
 ```
 
+**TODO** looks to have issue on import.
 
 ### Advanced commands
 

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '@nuxeo/nuxeo-elements/nuxeo-connection';
+import '@nuxeo/nuxeo-elements/nuxeo-document';
+import '@nuxeo/nuxeo-elements/nuxeo-page-provider';
+import '@nuxeo/nuxeo-ui-elements/widgets/nuxeo-file';
+import '@nuxeo/nuxeo-ui-elements/widgets/nuxeo-document-suggestion';
+import './nuxeo-documents-table';
+
 import logo from './logo.svg';
 import './App.css';
-
-import '@nuxeo/nuxeo-elements/nuxeo-connection'
-import '@nuxeo/nuxeo-elements/nuxeo-document'
-import '@nuxeo/nuxeo-elements/nuxeo-page-provider'
-import '@nuxeo/nuxeo-ui-elements/widgets/nuxeo-file'
-import '@nuxeo/nuxeo-ui-elements/widgets/nuxeo-document-suggestion'
-import './nuxeo-documents-table'
 
 import {RoutingBehavior} from '@nuxeo/nuxeo-ui-elements/nuxeo-routing-behavior';
 // define legacy router for elements using `nuxeo-router-behavior`
